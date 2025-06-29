@@ -19,27 +19,27 @@ int main() {
     window.setFramerateLimit(60); // Set framerate limit to 60 FPS
 
     sf::Font font;
-    if (!font.loadFromFile("E:/Project RPG/Project XIA/arial_narrow_7.ttf")) {
+    if (!font.loadFromFile("E:/project/arial_narrow_7.ttf")) {
         return -1; // Error handling
     }
 
     // Load the sound file
     sf::SoundBuffer buffer;
-    if (!buffer.loadFromFile("E:/Project RPG/Project XIA/shoot.wav"))
+    if (!buffer.loadFromFile("E:/project/shoot.wav"))
     {
         // Error handling if sound file fails to load
         return EXIT_FAILURE;
     }
 
     sf::SoundBuffer buffer2;
-    if (!buffer2.loadFromFile("E:/Project RPG/Project XIA/table-smash-47690.wav"))
+    if (!buffer2.loadFromFile("E:/project/table-smash-47690.wav"))
     {
         // Error handling if sound file fails to load
         return EXIT_FAILURE;
     }
 
     sf::SoundBuffer buffer3;
-    if (!buffer3.loadFromFile("E:/Project RPG/Project XIA/8-bit-video-game-points-version-1-145826.wav"))
+    if (!buffer3.loadFromFile("E:/project/8-bit-video-game-points-version-1-145826.wav"))
     {
         // Error handling if sound file fails to load
         return EXIT_FAILURE;
@@ -47,7 +47,7 @@ int main() {
 
 
     sf::SoundBuffer buffer4;
-    if (!buffer4.loadFromFile("E:/Project RPG/Project XIA/game-start-6104.wav"))
+    if (!buffer4.loadFromFile("E:/project/game-start-6104.wav"))
     {
         // Error handling if sound file fails to load
         return EXIT_FAILURE;
@@ -55,7 +55,7 @@ int main() {
 
 
     sf::SoundBuffer buffer5;
-    if (!buffer5.loadFromFile("E:/Project RPG/Project XIA/pixel-song-20-60935.wav"))
+    if (!buffer5.loadFromFile("E:/project/pixel-song-20-60935.wav"))
     {
         // Error handling if sound file fails to load
         return EXIT_FAILURE;
